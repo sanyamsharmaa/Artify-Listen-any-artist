@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listen your favourite artist on Spotify</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="script" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</head>
+
+<body>
+  <div class="cntr">
+    <div class="input-group mb-3">
+      <!-- <span class="input-group-text">@</span> -->
+      <form action="submit" method="post"></form>
+        <div class="form-floating">
+          <!-- <label for="floatingInputGroup1">Username</label> -->
+          <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+        </div>
+        <button type="submit">Srch</button>
+      </form>
+    </div>
+    <!-- <span class="input-group-text"><button>Srch</button></span> -->
+    <div class="otpt">
+      <div class="artist">
+        <a href="{%url%}" target="_blank">
+          <div class="img"><img src="{%imgurl%}" alt=""></div>
+        </a>
+        <div class="name">{%name%}</div>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- <script>
+    function submitInput() {
+      const userInput = document.getElementById("user-input").value;
+      fetch('/process-input', {
+        method: 'POST', // Use POST for sending data to the server
+        body: JSON.stringify({ userInput }) // Send the data as JSON
+      })
+      .then(response => response.text())
+      .then(text => console.log(text)) // Handle response (optional)
+      .catch(error => console.error(error));
+    }
+</script> -->
+
+</html>

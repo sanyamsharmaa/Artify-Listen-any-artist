@@ -1,0 +1,27 @@
+{
+    "status": true,
+    "type": "artist",
+    "id": "7uIbLdzzSEqnX0Pkrb56cR",
+    "name": "Yo Yo Honey Singh",
+    "shareUrl": "https://open.spotify.com/artist/7uIbLdzzSEqnX0Pkrb56cR",
+    "verified": true,
+    "visuals": {
+        "avatar": [
+            {
+                "url": "https://i.scdn.co/image/ab6761610000e5eb29cf7f1a56f5ff1911f6a0ef",
+                "width": 640,
+                "height": 640
+            },
+            {
+                "url": "https://i.scdn.co/image/ab6761610000f17829cf7f1a56f5ff1911f6a0ef",
+                "width": 160,
+                "height": 160
+            },
+            {
+                "url": "https://i.scdn.co/image/ab6761610000517429cf7f1a56f5ff1911f6a0ef",
+                "width": 320,
+                "height": 320
+            }
+        ]
+    }
+}
