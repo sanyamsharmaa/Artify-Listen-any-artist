@@ -25,8 +25,8 @@ app.set('view engine', 'hbs')
 
 app.get("/", (req, res) => {
     res.render('index', {
-        title: 'Artify',
-        name: 'Artify - Search any artist',
+        title: 'Artify: listen any artist seamlessly',
+        name: 'Artify - Search & listen any artist',
         url: '/',
         imgurl: 'A.png'
     });
