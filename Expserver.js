@@ -33,7 +33,7 @@ app.get("/", (req, res) => {
 
 })
 
-app.post(`https://artify-listen-any-artist.onrender.com/submit`, (req, res) => {
+app.post('/submit', (req, res) => {
     let userData = req.body.floatingInputGroup1;
     // userData = capitalizeFirstLetters(userData)
     // console.log('User Input-', userData)
